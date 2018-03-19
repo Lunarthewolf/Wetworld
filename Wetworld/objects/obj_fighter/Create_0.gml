@@ -1,0 +1,1 @@
+/// @description Base class for all the fighters
