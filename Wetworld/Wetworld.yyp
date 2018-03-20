@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "30576ca4-4e71-4d57-8c7c-7b304a212f5a",
+            "Value": {
+                "id": "716a87cb-db98-467e-b19c-73d84e04fda6",
+                "resourcePath": "objects\\obj_fart\\obj_fart.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "36e8344d-b3d4-48f6-9a18-007da9562f9b",
             "Value": {
                 "id": "699cd243-75e1-4fb6-8ba3-8eb4b790403b",
@@ -116,6 +124,14 @@
                 "id": "1f1e1f77-c390-4e92-b450-8558bd6b45b8",
                 "resourcePath": "views\\60d2feb7-58b7-434f-ab93-bdd81e8e6264.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "64ed48f1-ad6a-4079-9d6f-38556b0bab92",
+            "Value": {
+                "id": "153f40a2-c0ae-4e17-91e4-490f9edb58a6",
+                "resourcePath": "sprites\\spr_fart\\spr_fart.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
