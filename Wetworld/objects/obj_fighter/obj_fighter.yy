@@ -33,6 +33,16 @@
             "enumb": 10,
             "eventtype": 7,
             "m_owner": "7c539ee3-6a98-44c6-a3f3-cae7020a66c5"
+        },
+        {
+            "id": "239c387b-ed31-4d57-8c45-85942b34fda9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "7c539ee3-6a98-44c6-a3f3-cae7020a66c5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -81,6 +91,20 @@
             "varType": 0
         },
         {
+            "id": "a8574e2c-34a5-4493-8336-dbafee886f6a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": true,
+            "rangeMax": 50,
+            "rangeMin": -50,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "y_impulse",
+            "varType": 0
+        },
+        {
             "id": "e6fcdc74-bc13-447b-8b7f-5566e3f1afb1",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -93,6 +117,34 @@
             "value": "0",
             "varName": "y_momentum",
             "varType": 0
+        },
+        {
+            "id": "d107003d-0bf0-4d6e-ab91-2d5aa243fd40",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "platform",
+            "varType": 5
+        },
+        {
+            "id": "42f02a12-42f8-4248-9479-d03c4abf7a82",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "double_jumped",
+            "varType": 3
         },
         {
             "id": "74cfd33c-01ab-4b9a-9f03-e5a78bc11232",
@@ -123,7 +175,7 @@
             "varType": 0
         },
         {
-            "id": "d107003d-0bf0-4d6e-ab91-2d5aa243fd40",
+            "id": "1443d1dd-e861-4877-9f46-0e6cc0c51fbb",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -132,23 +184,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "noone",
-            "varName": "platform",
-            "varType": 5
-        },
-        {
-            "id": "42f02a12-42f8-4248-9479-d03c4abf7a82",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "False",
-            "varName": "double_jumped",
-            "varType": 3
+            "value": "10",
+            "varName": "dash_time",
+            "varType": 1
         }
     ],
     "solid": false,

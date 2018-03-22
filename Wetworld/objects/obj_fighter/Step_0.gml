@@ -1,10 +1,7 @@
 /// @description All the updates using x_impulse and y_impulse
-if (sign(x_impulse) != sign(x_momentum) && abs(x_impulse) == 50) {
+var prev_xmo = x_momentum;
+if (sign(x_impulse) != sign(x_momentum) && abs(x_impulse) == 50 && platform != noone && alarm[0] > 0) {
 	x_momentum = 0;
-}
-if (x_momentum == 0 && abs(x_impulse) == 50) {
-	var fart = instance_create_layer(x, bbox_bottom, "Effects", obj_fart);
-	fart.hspeed = -2 * sign(x_impulse);
 }
 if (x_impulse == 0) {
 	x_momentum -= sign(x_momentum);
@@ -26,6 +23,11 @@ while (place_meeting(x + x_change, y, obj_solid) && x_change != 0) {
 	if (abs(x_change) < 0.1) {
 		x_change = 0;
 	}
+}
+if (sign(prev_xmo) != sign(x_momentum) && x_momentum != 0 && abs(x_impulse) == 50 && platform != noone) {
+	var fart = instance_create_layer(x, bbox_bottom, "Effects", obj_fart);
+	fart.hspeed = -2 * sign(x_impulse);
+	alarm[0] = dash_time;
 }
 x += x_change;
 
